@@ -1,0 +1,11 @@
+<?php
+
+$brands = 
+[
+  ['name' => 'Alfa Romeo', 'logo' => ''],
+  ['name' => 'Audi', 'logo' => ''],
+  ['name' => 'Bentley', 'logo' => '']	
+];
+	
+
+?>
