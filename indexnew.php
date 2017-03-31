@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<!--http://themes.iamabdus.com/bigbag/1.1/index-v4.html-->
+<!--http://themes.iamabdus.com/bigbag/1.1/index-v4.html->
     <!-- SITE TITTLE -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,14 +13,9 @@
     <link href="css/jquery-ui.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
     <link href="css/select_option1.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" media="screen">
-
-
 
     <!-- GOOGLE FONT -->
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -28,12 +23,12 @@
     <!-- linearicons -->
     <link rel="stylesheet" href="css/icon-font.min.css">
 
-
     <!-- CUSTOM CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/optionswitch.css">
     <link rel="stylesheet" href="css/default.css" id="option_color">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,133 +46,252 @@
         <div class="topBar">
           <div class="container">
             <div class="row">
-              <div class="col-md-3 hidden-sm hidden-xs">
-                <div class="navbar-header">
-                  <a class="navbar-brand" href="/wheelstemp"><img src="image/logo.png" alt="logo+"></a>
-                </div>
+              <div class="col-md-6 hidden-sm hidden-xs">
+                <ul class="list-inline">
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                  <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                </ul>
               </div>
-              <div class="col-md-6">
-                <!--Search-->
-                <div class="navTop">
-                  <div class="container">
-                    <div class="navTop-middle">
-                      <div class="filterArea hidden-xs hidden-sm">
-                        <select name="guiest_id1" id="guiest_id1" class="select-drop">
-                          <option value="0">All Categories</option>
-                      		 <?php foreach($brands as $brand) {?>
-                                        <option value="1"><?php echo $brand['name']; ?></option>
-                      		<?php } ?>
-                    		</select>
-                      </div>
-                      <div class="searchBox">
-                        <span class="input-group">
-                          <input type="text" class="form-control" placeholder="Search Items…" aria-describedby="basic-addon2">
-                          <button type="submit" class="input-group-addon"><i class="fa fa-search"></i></button>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--SearchEnd-->
-              </div>
-              <div class="col-md-3 col-xs-12 navTop">
-                <!-- cart-->
-                <div class="dropdown cart-dropdown">
-                  <a href="#" class="dropdown-toggle shop-cart" data-toggle="dropdown">
-                    <i class="fa fa-shopping-cart"></i>
-                    <span class="hidden-xs">
-                      <span class="cart-total">Your Cart (3)</span><br>
-                      <span class="cart-price">$80.00</span>
-                    </span>
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-right">
-                    <li>Item(s) in your cart</li>
-                    <li>
-                      <a href="#">
-                        <div class="media">
-                          <img class="media-left media-object" src="imgage/cart-item-01.jpg" alt="cart-Image">
-                          <div class="media-body">
-                            <h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <div class="media">
-                          <img class="media-left media-object" src="/cart-item-01.jpg" alt="cart-Image">
-                          <div class="media-body">
-                            <h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="btn-group" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default" onclick="location.href='#';">Shopping Cart</button>
-                        <button type="button" class="btn btn-default" onclick="location.href='#';">Checkout</button>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <!-- cart -->
+              <div class="col-md-6 col-xs-12">
+                <ul class="list-inline pull-right top-right">
+                  <li class="account-login"><span><a data-toggle="modal" href='.login-modal'>Log in</a><small>or</small><a data-toggle="modal" href='#signup'>Create an account</a></span></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- NAV TOP -->
+        <div class="navTop text-center">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="javascript:void(0)"><img src="image/logo.png" alt="logo+"></a>
+            </div>
+            <div class="navTop-middle">
+              <div class="filterArea hidden-xs hidden-sm">
+                <select name="guiest_id1" id="guiest_id1" class="select-drop">
+                  <option value="0">All Categories</option>
+              		 <?php foreach($brands as $brand) {?>
+                                <option value="1"><?php echo $brand['name']; ?></option>
+              		<?php } ?>
+              		</select>
+              </div>
+              <div class="searchBox">
+                <span class="input-group">
+                  <input type="text" class="form-control" placeholder="Search Items…" aria-describedby="basic-addon2">
+                  <button type="submit" class="input-group-addon"><i class="fa fa-search"></i></button>
+                </span>
+              </div>
+            </div>
+            <div class="dropdown cart-dropdown">
+              <a href="cart-page.html" class="dropdown-toggle shop-cart" data-toggle="dropdown">
+                <i class="fa fa-shopping-cart"></i>
+                <span class="hidden-xs">
+                  <span class="cart-total">Your Cart (3)</span><br>
+                  <span class="cart-price">$80.00</span>
+                </span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li>Item(s) in your cart</li>
+                <li>
+                  <a href="single-product.html">
+                    <div class="media">
+                      <img class="media-left media-object" src="imgage/cart-item-01.jpg" alt="cart-Image">
+                      <div class="media-body">
+                        <h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="single-product.html">
+                    <div class="media">
+                      <img class="media-left media-object" src="/cart-item-01.jpg" alt="cart-Image">
+                      <div class="media-body">
+                        <h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default" onclick="location.href='cart-page.html';">Shopping Cart</button>
+                    <button type="button" class="btn btn-default" onclick="location.href='checkout-step-1.html';">Checkout</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-main navbar-default nav-V3" role="navigation">
+          <div class="container">
+
+            <div class="nav-category dropdown">
+
+              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Brand
+                <button type="button">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </a>
+
+
+              <ul class="dropdown-menu dropdown-menu-left" style="padding-left:10px; padding-right:10px; height: 500px;background-color: #E8EFF2 " >
+                <li> <span class="search_glass"></span><input type="text" style="width:100%;height:30px"></li>
+                <li><a href="#"><img src="image/carlogo.jpg" class="listing-tab"><img src="image/card1.png" class="listing-tab"><img src="image/carlogo.jpg" class="listing-tab"><img src="image/carlogo.jpg" class="listing-tab"><img src="image/card1.png" class="listing-tab"></a></li>
+                <div class="listing-brands">
+                    <?php foreach ($brands as $brand) { ?>
+
+                    <?php if(count($brand['types'])) { ?>
+                    <li>
+                      <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                          <img src="<?php echo $brand['logo']; ?>" height="30px";width="30px"; >  <?php echo $brand['name']; ?>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <?php foreach ($brand['types'] as $type) { ?>
+                          <li><a href="product-grid-left-sidebar.html"><?php echo $type; ?></a></li>
+                        <?php  }?>
+                      </ul>
+
+                    </li>
+                    <?php }  else{ ?>
+                      <li ><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="<?php echo $brand['logo']; ?>" height="30px";width="30px"; ><?php echo $brand['name']; ?></a></li>
+                      <?php }
+                     }?>
+                </div>
+                  <li><a href="#" class="btn btn-default search-btn">SEARCH WITHOUT VEHICLE</a></li>
+                </ul>
+
+            </div>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                <li class="dropdown active">
+                  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                  <ul class="dropdown-menu dropdown-menu-left">
+                    <?php foreach($brands as $brand) {?>
+                      <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                     <?php } ?>
+                  </ul>
+                </li>
+                <li class="dropdown megaDropMenu">
+                  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true" aria-expanded="false">Shop</b></a>
+                  <ul class="dropdown-menu row">
+                    <li class="col-sm-3 col-xs-12">
+                      <ul class="list-unstyled">
+                        <li>Products Grid View</li>
+                        <?php foreach($brands as $brand) {?>
+                          <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                         <?php } ?>
+                      </ul>
+                    </li>
+                    <li class="col-sm-3 col-xs-12">
+                      <ul class="list-unstyled">
+                        <li>Products List View</li>
+                        <?php foreach($brands as $brand) {?>
+                          <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                         <?php } ?>
+                      </ul>
+                    </li>
+                    <li class="col-sm-3 col-xs-12">
+                      <ul class="list-unstyled">
+                        <li>Checkout</li>
+                        <?php foreach($brands as $brand) {?>
+                          <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                         <?php } ?>
+                      </ul>
+                    </li>
+
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account</a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <?php foreach($pages as $page) {?>
+                      <li><a href="#"><?php echo $page['name'] ?></a></li>
+                     <?php } ?>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+
+          </div>
+        </nav>
+
       </div>
+
       <!-- BANNER -->
+      <div class="container">
+        <div class="bannercontainer bannerV4">
+          <div class="fullscreenbanner-container">
+            <div class="fullscreenbanner">
+              <ul>
+                <?php foreach($sliderImages as $sliderImage) {?>
+                <li data-transition="slidehorizontal" data-slotamount="5" data-masterspeed="700"  data-title="Slide 3">
+                  <img src="<?php echo $sliderImage['image'] ?>" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                  <div class="slider-caption slider-captionV4">
+                    <div class="tp-caption rs-caption-2 sft"
+                      data-hoffset="0"
+                      data-x="85"
+                      data-y="115"
+                      data-speed="800"
+                      data-start="2000"
+                      data-easing="Back.easeInOut"
+                      data-endspeed="300">
+                      <small>Festival Offer</small><br>
+                      Up To 20% off
+                    </div>
 
+                    <div class="tp-caption rs-caption-3 sft"
+                      data-hoffset="0"
+                      data-x="85"
+                      data-y="240"
+                      data-speed="1000"
+                      data-start="3000"
+                      data-easing="Power4.easeOut"
+                      data-endspeed="300"
+                      data-endeasing="Power1.easeIn"
+                      data-captionhidden="off">
+                      Our 3D Wheel Configurator
+                    </div>
+                    <div class="tp-caption rs-caption-4 sft"
+                      data-hoffset="0"
+                      data-x="85"
+                      data-y="300"
+                      data-speed="800"
+                      data-start="3500"
+                      data-easing="Power4.easeOut"
+                      data-endspeed="300"
+                      data-endeasing="Power1.easeIn"
+                      data-captionhidden="off">
+                      <span class="page-scroll"><a target="_blank" href="https://goo.gl/VCbeOp" class="btn primary-btn">Buy Now<i class="glyphicon glyphicon-chevron-right"></i></a></span>
+                    </div>
+                  </div>
+                </li>
+                <?php } ?>
 
-      <!--FILTERS-->
-        <div class="row filter-section">
-           <div class="col-md-4">
-                   <div align="center" style="padding:10px">Vehicle Search</div>
-                     <div class="search_container " align="center" style="padding:10px">
-                        <form role="search">
-                         <div class="input-group add-on" style="width:100%">
-                           <div class="searchBox">
-                             <span class="input-group">
-                               <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
-                               <button type="submit" class="input-group-addon"><i class="fa fa-search"></i></button>
-                             </span>
-                           </div>
-                         </div>
-                         </form>
-                       </div>
-                     <div class="filters">
-                       <ul class="nav nav-tabs">
-                         <li class="active">	<a href="#tab1" data-toggle="tab" aria-expanded="false" >	<img src="image/audi_car_logo.png"></a></li>
-                         <li class="">	<a href="#tab2" data-toggle="tab" aria-expanded="false" >	<img src="image/renault.jpg"></a></li>
-                         <li class=""><a href="#tab3" data-toggle="tab" aria-expanded="true" ><img src="image/wv.jpg"></a></li>
-                         <li class="">	<a href="#tab4" data-toggle="tab" aria-expanded="false" >	<img src="image/audi_car_logo.png" ></a></li>
-                         <li class=""><a href="#tab5" data-toggle="tab" aria-expanded="true" ><img src="image/renault.jpg"></a></li>
-                       </ul>
-                       <div class="tab-content search-box">
-                         <div class="tab-pane" id="tab1">
-                           <ul>
-                             <?php foreach($brands as $brand) {?>
-                             <li class="tab-list"><a href="#tab1" data-toggle="tab" aria-expanded="false">	<img src="<?php echo $brand['logo']?>"></a><span style="margin-left:10px"><?php echo $brand['name']?></span> </li>
-                             <?php }?>
-                           </ul>
-                         </div>
-                         <div class="tab-pane active" id="tab2">
-                       <ul>
-                         <?php foreach($brands as $brand) {?>
-                         <li class="tab-list"><a href="#tab1" data-toggle="tab" aria-expanded="false">	<img src="<?php echo $brand['logo']?>"></a><span style="margin-left:10px"><?php echo $brand['name']?></span> </li>
-                         <?php }?>
-                       </ul>
-                     </div>
-                       </div>
-                       <div class="search-btn"><a href="/wheelstemp" class="btn btn-default">SEARCH WITHOUT VEHICLE</a></div>
-                   </div>
-           </div>
-           <div class="col-md-8">
-             <img src="http://128.199.225.195/images/Wheel-Car-Audi-Automotive-Alloy-Vehicle-1879628.jpg" style="width:100%">
-           </div>
-         </div>
-      <!--FILTERS-->
-
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- CONTENT SECTION -->
       <section class="content clearfix">
@@ -190,9 +304,9 @@
                 <div class="productImage productImage1">
                 </div>
                 <div class="productCaption clearfix text-right">
-                  <h3><a href="#">Audi wheel</a></h3>
-                  <p>Lorem ipsum dolor sit ameit</p>
-                  <a href="#" class="btn btn-border">Shop Now</a>
+                  <h3><a href="single-product.html">Audi wheel</a></h3>
+                  <p>helps you to find suitable alloy wheels and tyres</p>
+                  <a href="single-product.html" class="btn btn-border">Shop Now</a>
                 </div>
               </div>
             </div>
@@ -201,9 +315,9 @@
                 <div class="productImage productImage2">
                 </div>
                 <div class="productCaption clearfix text-right">
-                  <h3><a href="#">Car's wheel</a></h3>
-                  <p>Lorem ipsum dolor sit ameit</p>
-                  <a href="#" class="btn btn-border">Shop Now</a>
+                  <h3><a href="single-product.html">Car's wheel</a></h3>
+                  <p>helps you to find suitable alloy wheels and tyres</p>
+                  <a href="single-product.html" class="btn btn-border">Shop Now</a>
                 </div>
               </div>
             </div>
@@ -239,56 +353,56 @@
                   <div class="category-bottom">
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/carlogo.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img6.jpg" alt="Image">
                         </a>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">Alloy-silver</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/carlogo.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img7.jpg" alt="Image">
                         </a>
                         <span class="sticker">50% off</span>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">Alloy wheel</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/carlogo.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img8.jpg" alt="Image">
                         </a>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">Alloy wheel</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
@@ -321,56 +435,56 @@
                   <div class="category-bottom">
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/carlogo.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img9.jpg" alt="Image">
                         </a>
                         <span class="sticker">50% off</span>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">alloy-silver</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/carlogo.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img10.jpg" alt="Image">
                         </a>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">alloy-silver</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/carlogo.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img11.jpg" alt="Image">
                         </a>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">matte-black alloy</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
@@ -403,56 +517,56 @@
                   <div class="category-bottom">
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/audi.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img13.jpg" alt="Image">
                         </a>
                         <span class="sticker">50% off</span>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">Alloy wheel</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/audi.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img14.jpg" alt="Image">
                         </a>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">alloy-silver</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/audi.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img12.jpg" alt="Image">
                         </a>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">Alloy wheel</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
@@ -485,56 +599,56 @@
                   <div class="category-bottom">
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/audi.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img16.jpg" alt="Image">
                         </a>
                         <span class="sticker">50% off</span>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">matte-black Alloy</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/audi.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img17.jpg" alt="Image">
                         </a>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">Alloy wheel</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
                     <div class="imageBox">
                       <div class="productImage clearfix">
-                        <a href="#">
-                          <img src="image/audi.jpg" alt="Image">
+                        <a href="single-product.html">
+                          <img src="img/home/category/category-img15.jpg" alt="Image">
                         </a>
                         <div class="productMasking">
                           <ul class="list-inline btn-group" role="group">
                             <li><a data-toggle="modal" href=".login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="cart-page.html" class="btn btn-default"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a data-toggle="modal" href=".quick-view" class="btn btn-default"><i class="fa fa-search"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="productCaption clearfix">
-                        <h5><a href="#">Alloy wheel</a></h5>
+                        <h5><a href="single-product.html">alloy-silver</a></h5>
                         <h3>$199</h3>
                       </div>
                     </div>
@@ -565,20 +679,20 @@
             </div>
             <div class="col-sm-2 col-xs-12">
               <div class="footerLink">
-                <h5>BRANDS</h5>
+                <h5>Felgenoutlet</h5>
                 <ul class="list-unstyled">
-                  	 <?php foreach($brands as $brand) {?>
-                  <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                  	 <?php foreach($Felgenoutlets as $Felgenoutlet) {?>
+                  <li><a href="#"><?php echo $Felgenoutlet['name'] ?></a></li>
                   <?php } ?>
                 </ul>
               </div>
             </div>
             <div class="col-sm-2 col-xs-12">
               <div class="footerLink">
-                <h5>Accessories</h5>
+                <h5>Customer Service</h5>
                 <ul class="list-unstyled">
-                  <?php foreach($brands as $brand) {?>
-               <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                  <?php foreach($services as $service) {?>
+               <li><a href="#"><?php echo $service['name'] ?></a></li>
                <?php } ?>
                 </ul>
               </div>
@@ -587,8 +701,8 @@
               <div class="footerLink">
                 <h5>Get in Touch</h5>
                 <ul class="list-unstyled">
-                  <li>Call us at (000)-000-0000</li>
-                  <li><a href="#">support@wheels.com</a></li>
+                  <li>Call us at (555)-555-5555</li>
+                  <li><a href="mailto:support@iamabdus.com">support@iamabdus.com</a></li>
                 </ul>
                 <ul class="list-inline">
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -606,7 +720,7 @@
                 <p>Enter your email address and get notified about new products. We hate spam!</p>
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="your email address" aria-describedby="basic-addon2">
-                  <a href="#" class="input-group-addon" id="basic-addon2">go <i class="fa fa-chevron-right"></i></a>
+                  <a href="#" class="input-group-addon" id="basic-addon2">go <i class="glyphicon glyphicon-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -618,7 +732,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-7 col-xs-12">
-              <p>&copy; <?php echo date("Y"); ?> Copyright by <a target="_blank" href="#">Wheels</a>.</p>
+              <p>&copy; 2016 Copyright Bigbag Store Bootstrap Template by Abdus</a>.</p>
             </div>
             <div class="col-sm-5 col-xs-12">
               <ul class="list-inline">
@@ -634,7 +748,7 @@
     </div>
 
     <!-- LOGIN MODAL -->
-    <!-- <div class="modal fade login-modal" id="login" tabindex="-1" role="dialog">
+    <div class="modal fade login-modal" id="login" tabindex="-1" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -662,10 +776,10 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- SIGN UP MODAL -->
-    <!-- <div class="modal fade" id="signup" tabindex="-1" role="dialog">
+    <div class="modal fade" id="signup" tabindex="-1" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -691,36 +805,43 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- PORDUCT QUICK VIEW MODAL -->
-    <!-- <div class="modal fade quick-view" tabindex="-1" role="dialog">
+    <div class="modal fade quick-view" tabindex="-1" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-body">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             <div class="media">
               <div class="media-left">
-                <img class="media-object" src="img/products/quick-view/quick-view-01.jpg" alt="Image">
+                <img class="media-object" src="image/alloy-wheels-rims-tsw-amaroo-5-lug-rear-alloy-silver-std-250.jpg" alt="Image">
               </div>
               <div class="media-body">
-                <h2>Old Skool Navy</h2>
-                <h3>$149</h3>
-                <p>Classic sneaker from Vans. Cotton canvas and suede upper. Textile lining with heel stabilizer and ankle support. Contrasting laces. Sits on a classic waffle rubber sole.</p>
+                <h2>Alloy wheels and tyres</h2>
+                <h3>$300</h3>
+                <p>Felgenoutlet: Your reliable partner for alloy wheels and tyres!</p>
                 <span class="quick-drop">
                   <select name="guiest_id3" id="guiest_id3" class="select-drop">
+                    <?php foreach($services as $service) {?>
+                 <li><a href="#"><?php echo $service['name'] ?></a></li>
+                 <?php } ?>
+
                     <option value="0">Size</option>
-                    <option value="1">Size 1</option>
-                    <option value="2">Size 2</option>
-                    <option value="3">Size 3</option>
+                    <?php foreach($sizes as $size) { ?>
+
+                    <option value="1"><?php echo $size['size'] ?></option>
+                    <?php }?>
+
                   </select>
                 </span>
                 <span class="quick-drop resizeWidth">
                   <select name="guiest_id4" id="guiest_id4" class="select-drop">
+                    <?php foreach($sizes as $size) ?>
                     <option value="0">Qty</option>
-                    <option value="1">Qty 1</option>
-                    <option value="2">Qty 2</option>
-                    <option value="3">Qty 3</option>
+                    <?php foreach($sizes as $size) { ?>
+                    <option value="1"><?php echo $size['size'] ?></option>
+                    <?php }?>
                   </select>
                 </span>
                 <div class="btn-area">
@@ -731,7 +852,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.js"></script>

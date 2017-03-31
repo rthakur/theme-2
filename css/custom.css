@@ -1,0 +1,89 @@
+.main-wrapper {
+	overflow-x: hidden;
+}
+li .search-btn {
+	padding-left: 0px !important;
+  margin-top: 20px !important;
+  width:100%;
+  height:30px;
+}
+
+.listing-brands{
+  height:300px;
+  overflow: auto;
+  border: 1px solid;
+}
+.listing-tab{
+  padding-left: 0px !important;
+  width:50px;
+  height:50px;
+}
+.nav-category>.dropdown-menu {
+	height: initial !important;
+}
+.nav-category .dropdown-menu li a{
+  padding:0px !important;
+}
+
+.navbar-brand {
+	padding: 0 !important;
+}
+.navTop {
+	padding: 5px !important;
+}
+
+.navTop .cart-dropdown>a>span {
+    border: 1px solid rgba(82, 73, 73, 0.15);
+    border-left: none;
+    padding: 3px 5px;
+    height: 35px;
+    line-height: 12px;
+    text-align: left;
+    display: table;
+    background: #fff;
+}
+
+.input-group.add-on {
+	margin-left: 6px;
+}
+
+.filter-section{
+	margin-left: 0px !important;
+}
+
+.filters {
+	padding-left: 14px;
+	padding-right: 5px;
+}
+
+.tab-list {
+	border-bottom: 1px solid #D4DBE0;
+	padding: 10px;
+	font-size: 15px;
+	padding-left: 30px;
+}
+
+.tab-content.search-box {
+	border: 1px solid #D4DBE0;
+}
+.nav > li > a > img {
+	width: 43px;
+	height: 25px;
+}
+.tab-list a img {
+	max-width: 35px;
+	height: 25px;
+}
+
+.search-btn a {
+	padding: 8px 0;
+	font-size: 15px;
+	margin-top: 17px;
+	border: none;
+	background-color: #E6E6E6;
+	width: 100%;
+}
+
+.input-group-btn .btn-default {
+	padding: 6px;
+}

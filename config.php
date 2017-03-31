@@ -3,9 +3,36 @@
 $brands =
 [
   ['name' => 'Alfa Romeo', 'logo' => 'image/carlogo.jpg', 'types' => [ 'Type1', 'Type1' ]],
-  ['name' => 'Audi', 'logo' => 'image/carlogo.jpg', 'types' => [ 'Type1', 'Type1' ]],
+  ['name' => 'Audi', 'logo' => 'image/audi.jpg', 'types' => [ 'Type1', 'Type1' ]],
   ['name' => 'Bentley', 'logo' => 'image/carlogo.jpg', 'types' => ['section1', 'section2']],
+  ['name' => 'Renault', 'logo' => 'image/renault.jpg', 'types' => [ 'Type1', 'Type1' ]],
+  ['name' => 'Audi', 'logo' => 'image/audi.jpg', 'types' => [ 'Type1', 'Type1' ]],
+  ['name' => 'Mercedes', 'logo' => 'image/mercedes.jpeg', 'types' => ['section1', 'section2']],
   ['name' => 'Bentley', 'logo' => 'image/carlogo.jpg', 'types' => []]
+];
+
+$services=
+[
+  ['name'=>'FAQ'],
+  ['name'=>'Contact'],
+  ['name'=>'Shipping']
+];
+
+
+$Felgenoutlets=
+[
+  ['name'=>'Imprint'],
+  ['name'=>'Terms and Conditions'],
+  ['name'=>'Privacy Policy']
+];
+
+$sizes=
+[
+  ['size'=>'14 inches'],
+  ['size'=>'15 inches'],
+  ['size'=>'16 inches'],
+  ['size'=>'17 inches'],
+  ['size'=>'18 inches']
 ];
 
 $pages =
@@ -21,6 +48,7 @@ $sliderImages =
    ['image'=>'image/alloy-wheels-rims-tsw-amaroo-5-lug-matte-black-std-250.jpg'],
    ['image'=>'image/alloy-wheels-rims-tsw-ascent-5-lug-matte-gunmetal-gloss-black-face-std-250.jpg']
 ];
+
 
 
 
