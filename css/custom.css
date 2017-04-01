@@ -161,6 +161,7 @@ li .search-btn {
 	border: 1px solid #eee;
 	margin-top: 20px;
 }
+
 th, td {
 	width: 50%;
 }
@@ -168,7 +169,7 @@ th{
 	padding-right: 40px;
 }
 .heading h3 {
-	font-style: italic;
+	text-transform: none;
 	border-bottom: 1px solid #eee;
 	padding: 15px 20px;
 }
