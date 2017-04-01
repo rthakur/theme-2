@@ -47,6 +47,14 @@ li .search-btn {
 	margin-left: 6px;
 }
 
+.filter-heading {
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #C5C5C5;
+}
+
 .filter-section{
 	margin-left: 0px !important;
 }
@@ -86,4 +94,17 @@ li .search-btn {
 
 .input-group-btn .btn-default {
 	padding: 6px;
+}
+
+.media-left.media-object {
+	width: 55px;
+}
+
+.nav-tabs > li:last-child > a {
+	margin-right: 0px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	background-color: #EEEEEE;
+	border: 1px solid #EEEEEE;
+	border-bottom-color: #D4DBE0;
 }

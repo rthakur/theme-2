@@ -2,9 +2,9 @@
 
 $brands =
 [
+  ['name' => 'Bentley', 'logo' => 'image/carlogo.jpg', 'types' => ['section1', 'section2']],
   ['name' => 'Alfa Romeo', 'logo' => 'image/carlogo.jpg', 'types' => [ 'Type1', 'Type1' ]],
   ['name' => 'Audi', 'logo' => 'image/audi.jpg', 'types' => [ 'Type1', 'Type1' ]],
-  ['name' => 'Bentley', 'logo' => 'image/carlogo.jpg', 'types' => ['section1', 'section2']],
   ['name' => 'Renault', 'logo' => 'image/renault.jpg', 'types' => [ 'Type1', 'Type1' ]],
   ['name' => 'Audi', 'logo' => 'image/audi.jpg', 'types' => [ 'Type1', 'Type1' ]],
   ['name' => 'Mercedes', 'logo' => 'image/mercedes.jpeg', 'types' => ['section1', 'section2']],
@@ -50,6 +50,17 @@ $sliderImages =
 ];
 
 
+$accessories =
+[
+  ['name' => 'Gear Lock'],
+  ['name' => ' Steering Wheel Cover'],
+  ['name' => 'Reverse Parking Sensors'],
+  ['name' => 'Car Perfume'],
+  ['name' => 'Rear View Camera'],
+  ['name' => 'GPS Navigator'],
+  ['name' => 'Bluetooth '],
+  ['name' => 'Luggage Carrier']
+];
 
 
 ?>

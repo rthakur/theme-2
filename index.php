@@ -95,7 +95,7 @@
                     <li>
                       <a href="#">
                         <div class="media">
-                          <img class="media-left media-object" src="imgage/cart-item-01.jpg" alt="cart-Image">
+                          <img class="media-left media-object" src="image/cart-1.jpg" alt="cart-Image">
                           <div class="media-body">
                             <h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
                           </div>
@@ -105,7 +105,7 @@
                     <li>
                       <a href="#">
                         <div class="media">
-                          <img class="media-left media-object" src="/cart-item-01.jpg" alt="cart-Image">
+                          <img class="media-left media-object" src="image/cart-2.jpg" alt="cart-Image">
                           <div class="media-body">
                             <h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
                           </div>
@@ -132,7 +132,7 @@
       <!--FILTERS-->
         <div class="row filter-section">
            <div class="col-md-4">
-                   <div align="center" style="padding:10px">Vehicle Search</div>
+                   <div class="filter-heading">VEHICLE SEARCH</div>
                      <div class="search_container " align="center" style="padding:10px">
                         <form role="search">
                          <div class="input-group add-on" style="width:100%">
@@ -225,6 +225,9 @@
                     </div>
                     <div class="category-Slider">
                       <div class="owl-carousel categorySlider">
+                        <div class="item">
+                          <img src="image/image5.jpg" alt="Image">
+                        </div>
                         <?php foreach($sliderImages as $sliderImage) {?>
                           <div class="item">
                             <img src="<?php echo $sliderImage['image'] ?>" alt="Image">
@@ -382,10 +385,10 @@
                 <div class="category-content">
                   <div class="category-top">
                     <div class="category-menu text-center">
-                      <h2 class="category-title">car's accessery</h2>
+                      <h2 class="category-title">car's accessory</h2>
                       <ul>
-                        <?php foreach($brands as $brand) {?>
-                          <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                        <?php foreach($accessories as $accessory) {?>
+                          <li><a href="#"><?php echo $accessory['name'] ?></a></li>
                          <?php } ?>
                       </ul>
                     </div>
@@ -464,10 +467,10 @@
                 <div class="category-content">
                   <div class="category-top">
                     <div class="category-menu text-center">
-                      <h2 class="category-title">car's accessery</h2>
+                      <h2 class="category-title">car's accessory</h2>
                       <ul>
-                        <?php foreach($brands as $brand) {?>
-                          <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                        <?php foreach($accessories as $accessory) {?>
+                          <li><a href="#"><?php echo $accessory['name'] ?></a></li>
                          <?php } ?>
                       </ul>
                     </div>
@@ -556,8 +559,8 @@
                 <h5>Accessories</h5>
                 <ul class="list-unstyled">
                   <ul class="list-unstyled">
-                   <?php foreach($brands as $brand) {?>
-                     <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                   <?php foreach($accessories as $accessory) {?>
+                     <li><a href="#"><?php echo $accessory['name'] ?></a></li>
                     <?php } ?>
                   </ul>
                 </ul>
@@ -577,8 +580,8 @@
               <div class="footerLink">
                 <h5>Accessories</h5>
                 <ul class="list-unstyled">
-                  <?php foreach($brands as $brand) {?>
-               <li><a href="#"><?php echo $brand['name'] ?></a></li>
+                  <?php foreach($accessories as $accessory) {?>
+               <li><a href="#"><?php echo $accessory['name'] ?></a></li>
                <?php } ?>
                 </ul>
               </div>
@@ -618,7 +621,8 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-7 col-xs-12">
-              <p>&copy; <?php echo date("Y"); ?> Copyright by <a target="_blank" href="#">Wheels</a>.</p>
+              <p>Copyright &copy; <?php echo date("Y"); ?>, <a target="_blank" href="#">wheels.com</a>. All right reserved.
+              </p>
             </div>
             <div class="col-sm-5 col-xs-12">
               <ul class="list-inline">
