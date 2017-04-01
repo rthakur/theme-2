@@ -42,6 +42,9 @@ li .search-btn {
     display: table;
     background: #fff;
 }
+.btn {
+	padding: 6px 12px !important;
+}
 
 .input-group.add-on {
 	margin-left: 6px;
@@ -107,4 +110,15 @@ li .search-btn {
 	background-color: #EEEEEE;
 	border: 1px solid #EEEEEE;
 	border-bottom-color: #D4DBE0;
+}
+
+.panel.panel-default {
+	margin-top: 20px;
+}
+.btn.btn-primary {
+	text-transform: none;
+}
+
+.list-inline.btn-group > li, .productMasking ul li a {
+	padding: 0px !important;
 }
