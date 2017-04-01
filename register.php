@@ -5,7 +5,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Create a Account</div>
                 <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="/register">
+                    <form class="form-horizontal" role="form" method="POST">
                         <div class="form-group">
                             <label for="name" class="col-md-4 control-label">Name</label>
                             <div class="col-md-6">

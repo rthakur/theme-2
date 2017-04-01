@@ -122,3 +122,62 @@ li .search-btn {
 .list-inline.btn-group > li, .productMasking ul li a {
 	padding: 0px !important;
 }
+
+.image-single {
+	width: 460px;
+	border: 1px solid;
+	margin-bottom: 30px;
+}
+.catalog-detail-image .col-md-2, .catalog-detail-image .col-md-10 {
+	padding: 0;
+}
+
+.veritcal-img {
+	width: 92px;
+	border: 1px solid;
+}
+
+.veritcal-img a img {
+	width: 100%;
+}
+
+.catalog-detail-button {
+	width: 224px;
+	padding: 10px !important;
+	border-radius: inherit !important;
+	margin-bottom: 20px;
+}
+.btn.btn-success.catalog-detail-button {
+	margin-right: 14px;
+}
+
+.specifications {
+	border: 1px solid #eee;
+	/*padding: 20px;*/
+}
+th, td {
+	width: 50%;
+}
+th{
+	padding-right: 40px;
+}
+.heading h3 {
+	font-style: italic;
+	border-bottom: 1px solid #eee;
+	padding: 15px 20px;
+}
+.more-detail {
+	padding: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.more-detail  th
+{
+	color :#878787;
+}
+
+.read-more {
+	font-size: 15px;
+	padding: 20px;
+	color: #878787;
+}
