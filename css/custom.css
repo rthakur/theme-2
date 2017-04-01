@@ -137,6 +137,9 @@ li .search-btn {
 	border: 1px solid;
 }
 
+.veritcal-img.active {
+	border: 3px solid #47BAC1;
+}
 .veritcal-img a img {
 	width: 100%;
 }
@@ -150,10 +153,13 @@ li .search-btn {
 .btn.btn-success.catalog-detail-button {
 	margin-right: 14px;
 }
-
+.price {
+	font-size: 16px;
+	font-weight: bold;
+}
 .specifications {
 	border: 1px solid #eee;
-	/*padding: 20px;*/
+	margin-top: 20px;
 }
 th, td {
 	width: 50%;

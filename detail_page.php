@@ -9,7 +9,7 @@
             <div class="col-md-2">
               <div class="image-thumbs thumbs-vertical">
                 <ul class="thumbnails">
-                  <li class="veritcal-img">
+                  <li class="veritcal-img active">
                     <a href="image/allot2.jpg" data-standard="image/allot2.jpg">
                       <img src="image/allot2.jpg" alt="" />
                     </a>
@@ -44,8 +44,9 @@
     <div class="col-md-6">
       <div class="product-detail">
         <div class="title"><h2>BRIDGESTONE</h2></div>
-        <span class="price">RS 200$</span>
+        <span class="price">RS 200</span>
         <div class="description">
+          <label>Description</label><br>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
         </div>
         <div class="specifications">
@@ -85,8 +86,23 @@
     </div>
   </div>
   <div class="row">
-    <h2>Similar Product</h2>
-  </div>
+    <h2 style="text-transform:none;">Similar Products</h2>
+    <?php foreach($similarproducts as $similarproduct) {?>
+     <div class="col-md-2">
+       <div class="thumbnail">
+         <a href="/wheelstemp/detail_page.php">
+           <img src="<?php echo $similarproduct['image']?>" alt="Lights" style="width:100%">
+           <div class="caption" style="text-align: center;">
+             <p><b><?php echo $similarproduct['name']?></b></p>
+             <span >RS <?php echo $similarproduct['price']?></span>
+           </div>
+         </a>
+       </div>
+     </div>
+     <?php }?>
+
+
+   </div>
 </div>
 
 	<?php include('includes/footer.php') ?>

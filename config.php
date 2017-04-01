@@ -61,6 +61,17 @@ $accessories =
   ['name' => 'Bluetooth '],
   ['name' => 'Luggage Carrier']
 ];
+$similarproducts =
+[
+  ['name'=>'alloy-grey','image'=>'image/alloy3.jpg','price'=>'200',],
+  ['name'=>'alloy-black','image'=>'image/allot2.jpg','price'=>'250',],
+  ['name'=>'alloy-grey','image'=>'image/alloy3.jpg','price'=>'200',],
+  ['name'=>'alloy-black','image'=>'image/allot2.jpg','price'=>'250',],
+  ['name'=>'alloy-silver','image'=>'image/index.jpg','price'=>'100',],
+  ['name'=>'alloy-grey','image'=>'image/alloy3.jpg','price'=>'200',]
+
+];
+
 
 
 ?>

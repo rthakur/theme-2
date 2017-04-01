@@ -200,17 +200,16 @@
   // Instantiate EasyZoom instances
 
   $('.thumbnails').on('click', 'a', function(e) {
-
-      e.stopPropagation();
+    e.preventDefault();
   });
   var $easyzoom = $('.easyzoom').easyZoom();
 
   // Setup thumbnails example
   var api1 = $easyzoom.filter('.easyzoom--with-thumbnails').data('easyZoom');
-
   $('.thumbnails').on('mouseover', 'a', function(e) {
     var $this = $(this);
-
+    $('.thumbnails li').removeClass('active');
+    $this.parent('li').addClass('active');
     e.preventDefault();
 
     // Use EasyZoom's `swap` method
