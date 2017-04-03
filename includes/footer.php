@@ -195,6 +195,7 @@
 <script src="js/jquery.syotimer.js"></script>
 <script src="js/optionswitcher.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/common.js"></script>
 <script src="js/easyzoom.js"></script>
 <script>
   // Instantiate EasyZoom instances

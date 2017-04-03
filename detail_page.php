@@ -89,6 +89,7 @@
   </div>
   <div class="row">
     <h2 style="text-transform:none;">Similar Products</h2>
+    <hr>
     <?php foreach($similarproducts as $similarproduct) {?>
      <div class="col-md-2">
        <div class="thumbnail product-list">
