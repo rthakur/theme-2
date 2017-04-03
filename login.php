@@ -7,16 +7,12 @@
                       <div class="panel-body">
                           <form class="form-horizontal" role="form" method="POST" action="http://128.199.225.195/login">
                               <input type="hidden" name="_token" value="BEdfdoj8IifESiwgEgzqpZvGXG1sozqxv24AZwlE">
-
                               <div class="form-group">
                                   <label for="email" class="col-md-4 control-label">E-Mail Address</label>
-
                                   <div class="col-md-6">
                                       <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
-
-                                                                  </div>
+                                  </div>
                               </div>
-
                               <div class="form-group">
                                   <label for="password" class="col-md-4 control-label">Password</label>
                                   <div class="col-md-6">
@@ -33,13 +29,16 @@
                                   </div>
                               </div>
                               <div class="form-group">
-                                  <div class="col-md-8 col-md-offset-4">
+                                  <div class="col-md-6 col-md-offset-4">
                                       <button type="submit" class="btn btn-primary">
                                           Login
                                       </button>
                                       <a class="btn btn-link" href="#">
                                           Forgot Your Password?
                                       </a>
+                                      <center>
+                                        <a class="btn btn-link" href="/wheelstemp/register.php">Create an account</a>
+                                    </center>
                                   </div>
                               </div>
                           </form>

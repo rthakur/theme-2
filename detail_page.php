@@ -79,7 +79,9 @@
                 </tbody>
               </table>
           </section>
-           <a class="read-more" href="#">Read More</a>
+          <div class="read-more">
+            <a style="color: #5F5F5F;" href="#">Read More > </a>
+         </div>
         </div>
 
       </div>
@@ -89,12 +91,14 @@
     <h2 style="text-transform:none;">Similar Products</h2>
     <?php foreach($similarproducts as $similarproduct) {?>
      <div class="col-md-2">
-       <div class="thumbnail">
+       <div class="thumbnail product-list">
+         <div class="wishlist-icon pull-right"> <i class="fa fa-heart"></i></div>
          <a href="/wheelstemp/detail_page.php">
+
            <img src="<?php echo $similarproduct['image']?>" alt="Lights" style="width:100%">
            <div class="caption" style="text-align: center;">
              <p><b><?php echo $similarproduct['name']?></b></p>
-             <span >RS <?php echo $similarproduct['price']?></span>
+             <span>RS <?php echo $similarproduct['price']?></span>
            </div>
          </a>
        </div>

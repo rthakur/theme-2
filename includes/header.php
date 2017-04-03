@@ -89,6 +89,8 @@
               <!--SearchEnd-->
             </div>
             <div class="col-md-3 col-xs-12 navTop">
+                <div class="sign-in"><a href="/wheelstemp/login.php" class="btn btn-signin" >Log in</a></div>
+
               <!-- cart-->
               <div class="dropdown cart-dropdown">
                 <a href="#" class="dropdown-toggle shop-cart" data-toggle="dropdown">
@@ -129,7 +131,11 @@
                 </ul>
               </div>
               <!-- cart -->
-            </div>
+
+
+           </div>
+
+
           </div>
         </div>
       </div>

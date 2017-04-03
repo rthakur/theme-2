@@ -122,19 +122,20 @@ li .search-btn {
 .list-inline.btn-group > li, .productMasking ul li a {
 	padding: 0px !important;
 }
-
 .image-single {
 	width: 460px;
 	border: 1px solid;
 	margin-bottom: 30px;
+	min-height: 460px;
 }
 .catalog-detail-image .col-md-2, .catalog-detail-image .col-md-10 {
 	padding: 0;
 }
 
 .veritcal-img {
-	width: 92px;
+	width: 70px;
 	border: 1px solid;
+	margin-bottom: 10px;
 }
 
 .veritcal-img.active {
@@ -187,4 +188,28 @@ th{
 	font-size: 15px;
 	padding: 20px;
 	color: #878787;
+}
+
+.btn.btn-signin {
+	background: #47BAC1;
+	padding: 11px !important;
+	float: right;
+	border-radius: 0;
+	color: #fff;
+	margin-left: 20px;
+}
+
+.btn {
+	text-transform: none !important;
+}
+
+.wishlist-icon {
+	color: #C2C2C2;
+	font-size: 20px;
+  display: none;
+	cursor: pointer;
+}
+.wishlist-icon .fa.fa-heart {
+	position: absolute;
+	right: 17px;
 }

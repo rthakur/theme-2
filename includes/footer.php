@@ -230,6 +230,15 @@
       api2._init();
     }
   });
+
+  $('.product-list').mouseover(function(){
+    $(this).children('.wishlist-icon').show();
+  });
+
+  $('.product-list').mouseout(function(){
+    $(this).children('.wishlist-icon').hide();
+  });
+
 </script>
 
 </body>
