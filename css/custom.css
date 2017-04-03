@@ -134,7 +134,9 @@ li .search-btn {
 .catalog-detail-button {
 	font-weight: 900;
 }
-
+.search-btn {
+	margin-bottom: 10px;
+}
 .veritcal-img {
 	width: 70px;
 	border: 1px solid;
@@ -280,6 +282,14 @@ th{
 	padding: 20px 15px;
 	font-size: 15px;
 	border-top: 1px solid #eee;
+}
+
+.featuredCollection.version2.version3 .btn-border {
+	border-color: #47BAC1 !important;
+	color: #fff;
+}
+.featuredCollection.version2.version3 .productImage1 {
+	background-repeat: round !important;
 }
 /*
 .fa.fa-angle-left.hover {
