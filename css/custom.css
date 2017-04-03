@@ -131,6 +131,9 @@ li .search-btn {
 .catalog-detail-image .col-md-2, .catalog-detail-image .col-md-10 {
 	padding: 0;
 }
+.catalog-detail-button {
+	font-weight: 900;
+}
 
 .veritcal-img {
 	width: 70px;
@@ -157,6 +160,12 @@ li .search-btn {
 .price {
 	font-size: 16px;
 	font-weight: bold;
+}
+.old-price {
+	font-size: 15px;
+	text-decoration: line-through;
+	color: #C2C2C2;
+	margin-left: 5px;
 }
 .specifications {
 	border: 1px solid #eee;
@@ -232,6 +241,9 @@ th{
 	text-align: center;
 	margin: 0 15px;
 }
+.cart-product-list {
+	margin-bottom: 20px;
+}
 .cart-link {
 	margin-top: 40px;
 }
@@ -269,3 +281,8 @@ th{
 	font-size: 15px;
 	border-top: 1px solid #eee;
 }
+/*
+.fa.fa-angle-left.hover {
+	margin-right: 10px;
+	font-weight: 800;
+}*/

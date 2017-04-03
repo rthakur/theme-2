@@ -239,7 +239,11 @@
   $('.product-list').mouseout(function(){
     $(this).children('.wishlist-icon').hide();
   });
-
+  // $('.catalog-detail-button').hover(function () {
+  //     $(this).addClass('hover');
+  // }, function () {
+  //     $('this').removeClass('hover');
+  // });
 </script>
 
 </body>
