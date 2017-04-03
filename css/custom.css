@@ -203,6 +203,12 @@ th{
 	text-transform: none !important;
 }
 
+.thumbnail.product-list:hover {
+	box-shadow: 3px 5px 13px #888;
+	margin:0 -10px;
+	margin-top: -10px;
+	padding: 10px;
+}
 .wishlist-icon {
 	color: #C2C2C2;
 	font-size: 20px;
