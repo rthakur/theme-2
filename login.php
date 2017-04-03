@@ -5,7 +5,7 @@
                   <div class="panel panel-default">
                       <div class="panel-heading">Login</div>
                       <div class="panel-body">
-                          <form class="form-horizontal" role="form" method="POST" action="http://128.199.225.195/login">
+                          <form class="form-horizontal" role="form" method="POST">
                               <input type="hidden" name="_token" value="BEdfdoj8IifESiwgEgzqpZvGXG1sozqxv24AZwlE">
                               <div class="form-group">
                                   <label for="email" class="col-md-4 control-label">E-Mail Address</label>

@@ -34,11 +34,11 @@
           <img src="image/cart-2.jpg" alt="" width="100%"/>
           <div class="center">
             <div class="input-group" style="margin: 0 auto;">
-                  <button type="button" class="btn btn-default btn-number"  data-type="minus" data-field="quant">
+                  <button type="button" class="btn btn-default btn-number"  data-type="minus" data-field="quant2">
                     <span class="glyphicon glyphicon-minus"></span>
                   </button>
-                  <input type="text" name="quant" class="input-number" value="2" min="1" max="10">
-                  <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant">
+                  <input type="text" name="quant2" class="input-number" value="2" min="1" max="10">
+                  <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant2">
                       <span class="glyphicon glyphicon-plus"></span>
                   </button>
                 </div>
