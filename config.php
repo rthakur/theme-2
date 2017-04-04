@@ -82,7 +82,6 @@ $audi_models =[
   ['name'=> 'Audi A6 allroad quattro']
 ];
 
-
 $renault_models =[
   ['name'=> 'Renault Kwid'],
   ['name'=> 'Renault Pulse'],
@@ -101,7 +100,6 @@ $mercedes_models =[
   ['name'=> 'Mercedes-Maybach S600']
 ];
 
-
 $alfa_romeo_models =[
   ['name'=> 'Alfa Romeo Spider'],
   ['name'=> 'Alfa Romeo 8C'],
@@ -112,6 +110,7 @@ $alfa_romeo_models =[
   ['name'=> 'Alfa Romeo 8C'],
   ['name'=> 'Alfa Romeo 156'],
 ];
+
 $bentley_models =[
   ['name'=> 'Bentley Arnage'],
   ['name'=> 'Bentley Continental GT'],
