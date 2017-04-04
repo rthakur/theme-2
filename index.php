@@ -1,5 +1,6 @@
 <?php include('includes/header.php') ?>
     <!--FILTERS-->
+    <div class="container">
       <div class="row filter-section">
          <div class="col-md-4">
                  <div class="filter-heading">VEHICLE SEARCH</div>
@@ -46,7 +47,8 @@
            <img src="http://128.199.225.195/images/Wheel-Car-Audi-Automotive-Alloy-Vehicle-1879628.jpg" style="width:100%">
          </div>
        </div>
-    <!--FILTERS-->
+      <!--FILTERS-->
+    </div>
     <!-- CONTENT SECTION -->
     <section class="content clearfix">
       <div class="container">

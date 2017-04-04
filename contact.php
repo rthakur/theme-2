@@ -37,7 +37,7 @@
         </div>
       </div>
     </div>
+    <div class="footer-image"><img src="image/footer-img.jpg"></div>
   </div><!-- /.container -->
 </div>
-<div class="footer-image"><img src="image/footer-img.jpg"></div>
 <?php include('includes/footer.php') ?>

@@ -66,10 +66,11 @@ li .search-btn {
 	margin-left: 0px !important;
 }
 
-.filters {
+/*.filters {
 	padding-left: 14px;
 	padding-right: 5px;
-}
+}*/
+
 .tab-list {
 	border-bottom: 1px solid #D4DBE0;
 	font-size: 15px;
@@ -88,7 +89,9 @@ li .search-btn {
 	max-height: 278px;
 	overflow-y: scroll;
 }
-
+.nav > li > a {
+    padding: 10px 12px !important;
+}
 .nav > li > a > img {
 	width: 43px;
 	height: 25px;
