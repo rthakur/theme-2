@@ -69,13 +69,18 @@ li .search-btn {
 
 .tab-list {
 	border-bottom: 1px solid #D4DBE0;
-	padding: 10px;
 	font-size: 15px;
 	padding-left: 30px;
+}
+.tab-item {
+	padding: 10px 0;
+	color: #252525;
 }
 
 .tab-content.search-box {
 	border: 1px solid #D4DBE0;
+	max-height: 278px;
+	overflow-y: scroll;
 }
 .nav > li > a > img {
 	width: 43px;
@@ -302,14 +307,6 @@ th{
 	border: navajowhite;
 	border-radius: 0;
 }
-/*.contact-heading {
-	font-size: 20px;
-	font-weight: 800;
-	border-bottom: 2px solid #fff;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	padding-left: 30px;
-}*/
 .contact-container {
     background: #DDDDDD;
     padding-top: 40px;

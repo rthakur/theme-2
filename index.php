@@ -27,17 +27,17 @@
                        <div class="tab-pane" id="tab1">
                          <ul>
                            <?php foreach($brands as $brand) {?>
-                           <li class="tab-list"><a href="#tab1" data-toggle="tab" aria-expanded="false">	<img src="<?php echo $brand['logo']?>"></a><span style="margin-left:10px"><?php echo $brand['name']?></span> </li>
+                           <li class="tab-list"><a href="#tab1" data-toggle="tab" aria-expanded="false"><div class="tab-item"><img src="<?php echo $brand['logo']?>"><span style="margin-left:10px"><?php echo $brand['name']?></span></div></a> </li>
                            <?php }?>
                          </ul>
                        </div>
                        <div class="tab-pane active" id="tab2">
-                     <ul>
-                       <?php foreach($brands as $brand) {?>
-                       <li class="tab-list"><a href="#tab1" data-toggle="tab" aria-expanded="false">	<img src="<?php echo $brand['logo']?>"></a><span style="margin-left:10px"><?php echo $brand['name']?></span> </li>
-                       <?php }?>
-                     </ul>
-                   </div>
+                         <ul>
+                           <?php foreach($brands as $brand) {?>
+                           <li class="tab-list"><a href="#tab1" data-toggle="tab" aria-expanded="false"><div class="tab-item"><img src="<?php echo $brand['logo']?>"><span style="margin-left:10px"><?php echo $brand['name']?></span> </div></a> </li>
+                           <?php }?>
+                         </ul>
+                       </div>
                      </div>
                      <div class="search-btn"><a href="/newUI" class="btn btn-default">SEARCH WITHOUT VEHICLE</a></div>
                  </div>

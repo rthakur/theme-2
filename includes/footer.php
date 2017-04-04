@@ -38,8 +38,9 @@
         <div class="footerLink">
           <h5>Get in Touch</h5>
           <ul class="list-unstyled">
-            <li>Call us at (000)-000-0000</li>
-            <li><a href="#">support@wheels.com</a></li>
+            <li><a href="/newUI/contact.php"><b>Contact Us</b></a></li>
+            <li><a href="#"><b>About Us</b></a></li>
+            <!-- <li><a href="#">support@wheels.com</a></li> -->
           </ul>
           <ul class="list-inline">
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
