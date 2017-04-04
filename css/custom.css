@@ -8,6 +8,9 @@ li .search-btn {
   height:30px;
 }
 
+h1, h2, h3, h4, h5 {
+	text-transform: none !important;
+}
 .listing-brands{
   height:300px;
   overflow: auto;
@@ -377,6 +380,9 @@ th{
 
 .img-center {
 	margin: 0 auto;
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
+}
+.page-header {
+	text-transform: none;
 }

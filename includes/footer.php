@@ -39,7 +39,7 @@
           <h5>Get in Touch</h5>
           <ul class="list-unstyled">
             <li><a href="/newUI/contact.php"><b>Contact Us</b></a></li>
-            <li><a href="#"><b>About Us</b></a></li>
+            <li><a href="/newUI/about_us.php"><b>About Us</b></a></li>
             <!-- <li><a href="#">support@wheels.com</a></li> -->
           </ul>
           <ul class="list-inline">
