@@ -89,7 +89,7 @@ li .search-btn {
 
 .tab-content.search-box, .model-search-box {
 	border: 1px solid #D4DBE0;
-	max-height: 278px;
+	max-height: 230px;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
@@ -373,4 +373,10 @@ th{
 	height: 35px;
 	width: 35px;
 	margin-left: 15px;
+}
+
+.img-center {
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
 }
