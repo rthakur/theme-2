@@ -90,7 +90,8 @@ li .search-btn {
 .tab-content.search-box, .model-search-box {
 	border: 1px solid #D4DBE0;
 	max-height: 278px;
-	overflow-y: scroll;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 .nav > li > a {
     padding: 10px 12px !important;
@@ -365,7 +366,7 @@ th{
 	font-size: 42px;
 	float: left;
 	margin: -5px 10px 5px 12px;
-	color: #868686;
+	color: #D8D8D8;
 }
 
 .active-logo {

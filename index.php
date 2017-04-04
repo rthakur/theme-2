@@ -4,9 +4,9 @@
       <div class="row filter-section">
          <div class="col-md-4">
                  <div class="filter-heading">VEHICLE SEARCH</div>
-                   <div class="search_container " align="center" style="padding:10px">
+                   <div class="search_container " align="center" style="padding: 10px 0px;">
                       <form role="search">
-                       <div class="input-group add-on" style="width:100%">
+                       <div class="input-group" style="width:100%">
                          <div class="searchBox">
                            <span class="input-group">
                              <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
