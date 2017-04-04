@@ -53,7 +53,7 @@
       </div>
       <div class="row cart-product-list">
           <button class="btn btn-warning catalog-detail-button pull-right"> PLACE ORDER </button>
-          <a class="btn btn-success catalog-detail-button pull-right" href="/wheelstemp"><i class="fa fa-angle-left"> </i> CONTINUE SHOPPING </a>
+          <a class="btn btn-success catalog-detail-button pull-right" href="/newUI"><i class="fa fa-angle-left"> </i> CONTINUE SHOPPING </a>
         </div>
     </div>
     <div class="col-md-4">

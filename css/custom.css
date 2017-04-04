@@ -296,11 +296,55 @@ th{
 	margin-right: 10px;
 	font-weight: 800;
 }*/
-.contact-heading {
+
+.form-control.contact-us {
+	margin-bottom: 10px;
+	border: navajowhite;
+	border-radius: 0;
+}
+/*.contact-heading {
 	font-size: 20px;
 	font-weight: 800;
 	border-bottom: 2px solid #fff;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	padding-left: 30px;
+}*/
+.contact-container {
+    background: #DDDDDD;
+    padding-top: 40px;
+}
+.contact-btn {
+    background: #333338;
+    color: #fff;
+    border-radius: 0 !important;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contact-btn:hover {
+	background: #666666;
+	color: #fff;
+}
+.contact-label {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: initial;
+}
+.contact-data {
+	font-size: 15px;
+	font-family: inherit;
+	color: #333;
+	line-height: 1.5;
+}
+.contact-right {
+	margin-top: 45px;
+}
+.contact-heading {
+	background: #C0C0C0;
+	text-align: center;
+	padding: 20px 0 0px !important;
+}
+.footer-image img {
+	height: 300px;
+	width: 100%;
 }

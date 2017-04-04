@@ -39,7 +39,7 @@
                      </ul>
                    </div>
                      </div>
-                     <div class="search-btn"><a href="/wheelstemp" class="btn btn-default">SEARCH WITHOUT VEHICLE</a></div>
+                     <div class="search-btn"><a href="/newUI" class="btn btn-default">SEARCH WITHOUT VEHICLE</a></div>
                  </div>
          </div>
          <div class="col-md-8">
@@ -60,7 +60,7 @@
               <div class="productCaption clearfix text-right">
                 <h3><a href="#">Audi wheel</a></h3>
                 <p>Lorem ipsum dolor sit ameit</p>
-                <a href="/wheelstemp/detail_page.php" class="btn btn-border">Shop Now</a>
+                <a href="/newUI/detail_page.php" class="btn btn-border">Shop Now</a>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
               <div class="productCaption clearfix text-right">
                 <h3><a href="#">Car's wheel</a></h3>
                 <p>Lorem ipsum dolor sit ameit</p>
-                <a href="/wheelstemp/detail_page.php" class="btn btn-border">Shop Now</a>
+                <a href="/newUI/detail_page.php" class="btn btn-border">Shop Now</a>
               </div>
             </div>
           </div>

@@ -94,7 +94,7 @@
      <div class="col-md-2">
        <div class="thumbnail product-list">
          <div class="wishlist-icon pull-right"> <i class="fa fa-heart"></i></div>
-         <a href="/wheelstemp/detail_page.php">
+         <a href="/newUI/detail_page.php">
 
            <img src="<?php echo $similarproduct['image']?>" alt="Lights" style="width:100%">
            <div class="caption" style="text-align: center;">

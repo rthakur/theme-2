@@ -61,7 +61,7 @@
           <div class="row">
             <div class="col-md-3 hidden-sm hidden-xs">
               <div class="navbar-header">
-                <a class="navbar-brand" href="/wheelstemp"><img src="image/logo.png" alt="logo+"></a>
+                <a class="navbar-brand" href="/newUI"><img src="image/logo.png" alt="logo+"></a>
               </div>
             </div>
             <div class="col-md-6">
@@ -89,7 +89,7 @@
               <!--SearchEnd-->
             </div>
             <div class="col-md-3 col-xs-12 navTop">
-                <div class="sign-in"><a href="/wheelstemp/login.php" class="btn btn-signin" >Log in</a></div>
+                <div class="sign-in"><a href="/newUI/login.php" class="btn btn-signin" >Log in</a></div>
 
               <!-- cart-->
               <div class="dropdown cart-dropdown">
@@ -124,7 +124,7 @@
                   </li>
                   <li>
                     <div class="btn-group" role="group" aria-label="...">
-                      <button type="button" class="btn btn-default" onclick="location.href='/wheelstemp/mycart.php';">Shopping Cart</button>
+                      <button type="button" class="btn btn-default" onclick="location.href='/newUI/mycart.php';">Shopping Cart</button>
                       <button type="button" class="btn btn-default" onclick="location.href='#';">Checkout</button>
                     </div>
                   </li>

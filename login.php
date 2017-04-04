@@ -37,7 +37,7 @@
                                           Forgot Your Password?
                                       </a>
                                       <center>
-                                        <a class="btn btn-link" href="/wheelstemp/register.php">Create an account</a>
+                                        <a class="btn btn-link" href="/newUI/register.php">Create an account</a>
                                     </center>
                                   </div>
                               </div>
