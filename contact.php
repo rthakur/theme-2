@@ -1,23 +1,14 @@
 <?php include('includes/header.php') ?>
 <div class="container">
-    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <form class="well form-horizontal" style="margin-top: 20px;">
+        <div class="contact-heading">Contact us</div>
         <!-- Text input-->
         <div class="form-group">
-          <label class="col-md-4 control-label">First Name</label>
-          <div class="col-md-4 inputGroupContainer">
-          <div class="input-group">
-          <span class="input-group-addon"><i class="fa fa-user"></i></span>
-          <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
-            </div>
-          </div>
-        </div>
-        <!-- Text input-->
-        <div class="form-group">
-          <label class="col-md-4 control-label" >Last Name</label>
+          <label class="col-md-4 control-label" >Name</label>
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
           <span class="input-group-addon"><i class="fa fa-user"></i></span>
-          <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+          <input name="name" placeholder="Name" class="form-control"  type="text">
             </div>
           </div>
         </div>
@@ -34,15 +25,15 @@
         <div class="form-group">
           <label class="col-md-4 control-label">Message</label>
             <div class="col-md-4 inputGroupContainer">
-            <div class="input-group">
-                	<textarea class="form-control" name="comment" placeholder="Message" style="width: 350px;"></textarea>
+            <div class="input-group" style="width: 100%;">
+              	<textarea class="form-control" name="comment" placeholder="Message" ></textarea>
           </div>
           </div>
         </div>
         <div class="form-group">
           <label class="col-md-4 control-label"></label>
           <div class="col-md-4">
-            <button type="submit" class="btn btn-success" >Send <span class="fa fa-send"></span></button>
+            <button type="submit" class="btn btn-primary" >Send <span class="fa fa-send"></span></button>
           </div>
         </div>
     </form>
