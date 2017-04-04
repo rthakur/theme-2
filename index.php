@@ -38,7 +38,7 @@
                        </div>
                        <div class="tab-pane" id="maintab2">
                          <div class="nav nav-tabs">
-                           <a href="#maintab1" data-toggle="tab" aria-expanded="true">	<i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                           <a href="#maintab1" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-left back" aria-hidden="true"></i></a>
                            <img class="active-logo" src="image/renault.jpg" width="40px">
                          </div>
                          <div class="tab-content model-search-box">
