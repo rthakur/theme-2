@@ -124,8 +124,8 @@
                   </li>
                   <li>
                     <div class="btn-group" role="group" aria-label="...">
-                      <button type="button" class="btn btn-default" onclick="location.href='/newUI/mycart.php';">Shopping Cart</button>
-                      <button type="button" class="btn btn-default" onclick="location.href='#';">Checkout</button>
+                      <button type="button" class="btn btn-default cart-btn" onclick="location.href='/newUI/mycart.php';">Shopping Cart</button>
+                      <button type="button" class="btn btn-default cart-btn" onclick="location.href='#';">Checkout</button>
                     </div>
                   </li>
                 </ul>
