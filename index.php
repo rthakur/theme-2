@@ -17,29 +17,69 @@
                        </form>
                      </div>
                    <div class="filters">
-                     <ul class="nav nav-tabs">
-                       <li class="active">	<a href="#tab1" data-toggle="tab" aria-expanded="false" >	<img src="image/audi_car_logo.png"></a></li>
-                       <li class="">	<a href="#tab2" data-toggle="tab" aria-expanded="false" >	<img src="image/renault.jpg"></a></li>
-                       <li class=""><a href="#tab3" data-toggle="tab" aria-expanded="true" ><img src="image/wv.jpg"></a></li>
-                       <li class="">	<a href="#tab4" data-toggle="tab" aria-expanded="false" >	<img src="image/audi_car_logo.png" ></a></li>
-                       <li class=""><a href="#tab5" data-toggle="tab" aria-expanded="true" ><img src="image/renault.jpg"></a></li>
-                     </ul>
-                     <div class="tab-content search-box">
-                       <div class="tab-pane" id="tab1">
-                         <ul>
-                           <?php foreach($brands as $brand) {?>
-                           <li class="tab-list"><a href="#tab1" data-toggle="tab" aria-expanded="false"><div class="tab-item"><img src="<?php echo $brand['logo']?>"><span style="margin-left:10px"><?php echo $brand['name']?></span></div></a> </li>
-                           <?php }?>
+                     <div class="tab-content">
+                       <div class="tab-pane active" id="maintab1">
+                         <ul class="nav nav-tabs">
+                           <li class="get-model active" data-company="audi" data-logo="image/audi_car_logo.png">	<a href="#maintab2" data-toggle="tab" aria-expanded="false" >	<img src="image/audi_car_logo.png"></a></li>
+                           <li class="get-model"  data-company="renault" data-logo="image/renault.jpg">	<a href="#maintab2" data-toggle="tab" aria-expanded="false" >	<img src="image/renault.jpg"></a></li>
+                           <li class="get-model" data-company="alfa_romeo" data-logo="image/alfa-romeo-logo.jpg"><a href="#maintab2" data-toggle="tab" aria-expanded="true" ><img src="image/alfa-romeo-logo.jpg"></a></li>
+                           <li class="get-model" data-company="bentley" data-logo="image/bentley_logo.png">	<a href="#maintab2" data-toggle="tab" aria-expanded="false" >	<img src="image/bentley_logo.png" ></a></li>
+                           <li class="get-model" data-company="mercedes" data-logo="image/mercedes.jpg"><a href="#maintab2" data-toggle="tab" aria-expanded="true" ><img src="image/mercedes.jpg"></a></li>
                          </ul>
+                         <div class="tab-content search-box">
+                           <!-- <div class="tab-pane active" id="tab1"> -->
+                             <ul>
+                               <?php foreach($brands as $brand) {?>
+                               <li class="tab-list get-model" data-logo="<?php echo $brand['logo']?>" data-company="<?php echo $brand['key']?>"><a href="#maintab2" data-toggle="tab" aria-expanded="false"><div class="tab-item"><img src="<?php echo $brand['logo']?>"><span style="margin-left:10px"><?php echo $brand['name']?></span> </div></a> </li>
+                               <?php }?>
+                             </ul>
+                           <!-- </div> -->
+                         </div>
                        </div>
-                       <div class="tab-pane active" id="tab2">
-                         <ul>
-                           <?php foreach($brands as $brand) {?>
-                           <li class="tab-list"><a href="#tab1" data-toggle="tab" aria-expanded="false"><div class="tab-item"><img src="<?php echo $brand['logo']?>"><span style="margin-left:10px"><?php echo $brand['name']?></span> </div></a> </li>
-                           <?php }?>
-                         </ul>
+                       <div class="tab-pane" id="maintab2">
+                         <div class="nav nav-tabs">
+                           <a href="#maintab1" data-toggle="tab" aria-expanded="true">	<i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                           <img class="active-logo" src="image/renault.jpg" width="40px">
+                         </div>
+                         <div class="tab-content model-search-box">
+                           <div class="tab-pane models" id="audi">
+                             <ul>
+                               <?php foreach($audi_models as $model) {?>
+                               <li class="tab-list"><a href="#"><div class="tab-item"><span><?php echo $model['name']?></span></div></a> </li>
+                               <?php }?>
+                             </ul>
+                           </div>
+                           <div class="tab-pane models" id="renault">
+                             <ul>
+                               <?php foreach($renault_models as $model) {?>
+                               <li class="tab-list"><a href="#"><div class="tab-item"><span><?php echo $model['name']?></span></div></a> </li>
+                               <?php }?>
+                             </ul>
+                           </div>
+                           <div class="tab-pane models" id="mercedes">
+                             <ul>
+                               <?php foreach($mercedes_models as $model) {?>
+                               <li class="tab-list"><a href="#"><div class="tab-item"><span><?php echo $model['name']?></span></div></a> </li>
+                               <?php }?>
+                             </ul>
+                           </div>
+                           <div class="tab-pane models" id="alfa_romeo">
+                             <ul>
+                               <?php foreach($alfa_romeo_models as $model) {?>
+                               <li class="tab-list"><a href="#"><div class="tab-item"><span><?php echo $model['name']?></span></div></a> </li>
+                               <?php }?>
+                             </ul>
+                           </div>
+                           <div class="tab-pane models" id="bentley">
+                             <ul>
+                               <?php foreach($bentley_models as $model) {?>
+                               <li class="tab-list"><a href="#"><div class="tab-item"><span><?php echo $model['name']?></span></div></a> </li>
+                               <?php }?>
+                             </ul>
+                           </div>
+                         </div>
                        </div>
-                     </div>
+                   </div>
                      <div class="search-btn"><a href="/newUI" class="btn btn-default">SEARCH WITHOUT VEHICLE</a></div>
                  </div>
          </div>

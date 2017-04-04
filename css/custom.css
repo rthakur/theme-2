@@ -83,8 +83,11 @@ li .search-btn {
 	padding: 10px 0;
 	color: #252525;
 }
+.tab-item:hover {
+	color: #47BAC1;
+}
 
-.tab-content.search-box {
+.tab-content.search-box, .model-search-box {
 	border: 1px solid #D4DBE0;
 	max-height: 278px;
 	overflow-y: scroll;
@@ -356,4 +359,17 @@ th{
 .footer-image img {
 	height: 300px;
 	width: 100%;
+}
+
+.fa.fa-angle-left {
+	font-size: 42px;
+	float: left;
+	margin: -5px 10px 5px 12px;
+	color: #868686;
+}
+
+.active-logo {
+	height: 35px;
+	width: 35px;
+	margin-left: 15px;
 }

@@ -245,6 +245,14 @@
   // }, function () {
   //     $('this').removeClass('hover');
   // });
+
+  $('.get-model').click(function(){
+    var name =$(this).data('company');
+    var logo =$(this).data('logo');
+    $('.active-logo').attr('src', logo);
+    $('.models').removeClass('active');
+    $('#'+name).addClass('active');
+  });
 </script>
 
 </body>
