@@ -589,7 +589,6 @@ th{
 .credit-card-box .panel-heading img {
     min-width: 180px;
 }
-
 .card-section {
 	display: none;
 	vertical-align: top;
@@ -597,4 +596,8 @@ th{
 	max-width: 470px;
 	width: 50%;
 	padding: 0.5em 1em 1em 1em;
+}
+.edit-summary{
+	color: #252525 !important;
+	font-size: 14px !important;
 }
