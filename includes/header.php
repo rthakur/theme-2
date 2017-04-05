@@ -19,13 +19,11 @@
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" media="screen">
 
-
   <!-- GOOGLE FONT -->
   <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 
   <!-- linearicons -->
   <link rel="stylesheet" href="css/icon-font.min.css">
-
 
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
@@ -39,7 +37,6 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-
   <link rel="stylesheet" href="css/easyzoom.css" />
 
 	<script>
@@ -48,8 +45,6 @@
 		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 		s.parentNode.insertBefore(g,s)}(document,'script'));
 	</script>
-
-
 </head>
 <body class="body-wrapper">
   <div class="main-wrapper">
@@ -89,8 +84,7 @@
               <!--SearchEnd-->
             </div>
             <div class="col-md-3 col-xs-12 navTop">
-                <div class="sign-in"><a href="/newUI/login.php" class="btn btn-signin" >Log in</a></div>
-
+              <div class="sign-in"><a href="/newUI/login.php" class="btn btn-signin" >Log in</a></div>
               <!-- cart-->
               <div class="dropdown cart-dropdown">
                 <a href="#" class="dropdown-toggle shop-cart" data-toggle="dropdown">
@@ -125,17 +119,13 @@
                   <li>
                     <div class="btn-group" role="group" aria-label="...">
                       <button type="button" class="btn btn-default cart-btn" onclick="location.href='/newUI/mycart.php';">Shopping Cart</button>
-                      <button type="button" class="btn btn-default cart-btn" onclick="location.href='#';">Checkout</button>
+                      <button type="button" class="btn btn-default cart-btn" onclick="location.href='/newUI/address.php';">Checkout</button>
                     </div>
                   </li>
                 </ul>
               </div>
               <!-- cart -->
-
-
            </div>
-
-
           </div>
         </div>
       </div>
