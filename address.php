@@ -1,5 +1,34 @@
 <?php include('includes/header.php') ?>
 <div class="container">
+  <section class="shoping-progress-bar">
+      <ul class="bs-wizard">
+           <li class="bs-wizard-step complete"><!-- complete -->
+             <div class="text-center bs-wizard-stepnum">MyCart</div>
+             <div class="progress"><div class="progress-bar"></div></div>
+             <a href="/newUI/mycart.php" class="bs-wizard-dot"></a>
+           </li>
+           <li class="bs-wizard-step active"><!-- active -->
+             <div class="text-center bs-wizard-stepnum">Address</div>
+             <div class="progress"><div class="progress-bar"></div></div>
+             <a href="#" class="bs-wizard-dot"></a>
+           </li>
+           <li class="bs-wizard-step disabled"><!-- disabled -->
+             <div class="text-center bs-wizard-stepnum">Delivery</div>
+             <div class="progress"><div class="progress-bar"></div></div>
+             <a href="#" class="bs-wizard-dot"></a>
+           </li>
+           <li class="bs-wizard-step disabled"><!-- disabled -->
+             <div class="text-center bs-wizard-stepnum">Payment</div>
+             <div class="progress"><div class="progress-bar"></div></div>
+             <a href="#" class="bs-wizard-dot"></a>
+           </li>
+           <li class="bs-wizard-step disabled"><!-- disabled -->
+             <div class="text-center bs-wizard-stepnum">Summary </div>
+             <div class="progress"><div class="progress-bar"></div></div>
+             <a href="#" class="bs-wizard-dot"></a>
+           </li>
+       </ul>
+  </section>
   <form  role="form" action="/newUI/delivery.php">
     <div class="row">
         <div class="col-md-5 col-md-offset-1">
@@ -597,7 +626,6 @@
         <a href="/newUI/mycart.php" class="btn btn-info adress-btn" style="margin-right: 15px;">Previous</a><button class="btn btn-success adress-btn">Continue</button>
     </div>
   </form> <!-- /form -->
-
 </div> <!-- ./container -->
 
 <?php include('includes/footer.php') ?>
