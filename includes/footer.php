@@ -253,6 +253,12 @@
     $('.models').removeClass('active');
     $('#'+name).addClass('active');
   });
+  $('.del_address').change(function(){
+    if($(this).val() =='new_address')
+      $('#new-address').show();
+    else
+      $('#new-address').hide();
+  });
 </script>
 
 </body>
