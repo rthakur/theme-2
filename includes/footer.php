@@ -259,6 +259,12 @@
     else
       $('#new-address').hide();
   });
+  $('.payment-option').change(function(){
+    if($(this).val() =='direct_debit')
+      $('.card-section').slideDown().css('display', 'inline-block');
+    else
+      $('.card-section').slideUp();
+  });
 </script>
 
 </body>

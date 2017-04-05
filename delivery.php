@@ -2,10 +2,10 @@
 <div class="container">
   <h3>DELIVERY</h3>
   <p>Please choose your delivery method</p>
-  <form action="payment.php">
+  <form action="payment.php" method="post">
     <div class="item item-service">
       <label class="description" >
-        <input class="option" type="radio" checked/>
+        <input class="option" name="delivery_type" type="radio" checked/>
         <span class="price-value">€ 6.90</span>
         <div class="icons">
           <div class="icon"><img src="image/fedex.png" alt="" /></div>
@@ -17,7 +17,7 @@
     </div>
     <div class="item item-service">
       <label class="description" >
-        <input class="option" type="radio"/>
+        <input class="option" name="delivery_type" type="radio"/>
         <span class="price-value">€ 5.00</span>
         <div class="icons">
           <div class="icon"><img src="image/tnt.png" alt="" /></div>
@@ -29,7 +29,7 @@
     </div>
     <div class="item item-service">
       <label class="description" >
-        <input class="option" type="radio"/>
+        <input class="option" name="delivery_type" type="radio"/>
         <span class="price-value">€ 0.00</span>
         <div class="icons">
           <div class="icon"><img src="image/dhl.png" alt="" /></div>
@@ -41,7 +41,7 @@
     </div>
     <div class="item item-service">
       <label class="description" >
-        <input class="option" type="radio"/>
+        <input class="option" name="delivery_type" type="radio"/>
         <span class="price-value">€ 5.00</span>
         <div class="icons">
           <div class="icon"><img src="image/dhl-express.png" alt="" /></div>

@@ -421,6 +421,9 @@ th{
 .item-service .icons, .item-service .icon, .item-service .description h2{
 	display: inline-block;
 }
+.item-service .description h2{
+	font-size: 16px;
+}
 .item-service .icons img {
 	max-height: 4em;
 	margin: 0 1em;
@@ -435,4 +438,73 @@ th{
 	font-weight: bold;
 	padding: 0.5em 0;
 	margin: 0 1em;
+}
+
+.height {
+    min-height: 125px;
+}
+.table > tbody > tr > .emptyrow {
+    border-top: none;
+}
+.table > thead > tr > .emptyrow {
+    border-bottom: none;
+}
+.table > tbody > tr > .highrow {
+    border-top: 3px solid;
+}
+
+
+/* CSS for Credit Card Payment form */
+
+.panel.panel-default.credit-card-box {
+	margin-top: 0px !important;
+}
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+.card-section {
+	display: none;
+	vertical-align: top;
+	min-width: 240px;
+	max-width: 470px;
+	width: 50%;
+	padding: 0.5em 1em 1em 1em;
 }

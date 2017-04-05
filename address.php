@@ -299,10 +299,10 @@
         <div class="col-sm-6">
             <h3 class="address-heading">Delivery address</h3>
             <div class="item-address item-like">
-                <input id="radio1" name="del_address" class="del_address" value="option1" type="radio" checked><span class="test">like billing address</span>
+                <input id="radio1" name="delivery_address" class="delivery_address" value="option1" type="radio" checked><span class="test">billing address</span>
             </div>
             <div class="item-address item-like">
-                <input id="radio2" name="del_address"  class="del_address" value="new_address" type="radio"><span class="test">	new address</span>
+                <input id="radio2" name="delivery_address"  class="delivery_address" value="new_address" type="radio"><span class="test">	new address</span>
             </div>
             <div id="new-address" style="display:none;">
                 <div class="form-group">
