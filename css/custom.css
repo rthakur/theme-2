@@ -410,3 +410,29 @@ th{
 	margin: 4px 14px;
 	font-weight: 600;
 }
+
+.item.item-service {
+	border: solid 1px #D0D0D0;
+	margin: 1em 0.5em;
+}
+.item-service .option {
+	margin: 1em;
+}
+.item-service .icons, .item-service .icon, .item-service .description h2{
+	display: inline-block;
+}
+.item-service .icons img {
+	max-height: 4em;
+	margin: 0 1em;
+}
+.item-service .price-value {
+	float: right;
+ 	margin: 1px;
+	font-size: 100%;
+}
+
+.item-service .description p {
+	font-weight: bold;
+	padding: 0.5em 0;
+	margin: 0 1em;
+}

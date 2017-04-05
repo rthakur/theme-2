@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="row cart-product-list">
-          <button class="btn btn-warning catalog-detail-button pull-right"> PLACE ORDER </button>
+          <a href="/newUI/address.php" class="btn btn-warning catalog-detail-button pull-right"> CHECKOUT </a>
           <a class="btn btn-success catalog-detail-button pull-right" href="/newUI"><i class="fa fa-angle-left"> </i> CONTINUE SHOPPING </a>
         </div>
     </div>
