@@ -624,7 +624,7 @@
           </div>
       </div>
       <div class="row form-group text-center">
-          <a href="/newUI/mycart.php" class="btn btn-info adress-btn" style="margin-right: 15px;">Previous</a><button class="btn btn-success adress-btn">Continue</button>
+          <a href="/newUI/mycart.php" class="btn btn-info address-btn" style="margin-right: 15px;">Previous</a><button class="btn btn-success address-btn">Continue</button>
       </div>
     </form> <!-- /form -->
   </section>

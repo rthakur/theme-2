@@ -1,51 +1,45 @@
 <?php include('includes/header.php') ?>
-      <div class="container">
-          <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                  <div class="panel panel-default">
-                      <div class="panel-heading">Login</div>
-                      <div class="panel-body">
-                          <form class="form-horizontal" role="form" method="POST">
-                              <input type="hidden" name="_token" value="BEdfdoj8IifESiwgEgzqpZvGXG1sozqxv24AZwlE">
-                              <div class="form-group">
-                                  <label for="email" class="col-md-4 control-label">E-Mail Address</label>
-                                  <div class="col-md-6">
-                                      <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
-                                  </div>
-                              </div>
-                              <div class="form-group">
-                                  <label for="password" class="col-md-4 control-label">Password</label>
-                                  <div class="col-md-6">
-                                      <input id="password" type="password" class="form-control" name="password" required>
-                                    </div>
-                              </div>
-                              <div class="form-group">
-                                  <div class="col-md-6 col-md-offset-4">
-                                      <div class="checkbox">
-                                          <label>
-                                              <input type="checkbox" name="remember" > Remember Me
-                                          </label>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="form-group">
-                                  <div class="col-md-6 col-md-offset-4">
-                                      <button type="submit" class="btn btn-primary">
-                                          Login
-                                      </button>
-                                      <a class="btn btn-link" href="#">
-                                          Forgot Your Password?
-                                      </a>
-                                      <center>
-                                        <a class="btn btn-link" href="/newUI/register.php">Create an account</a>
-                                    </center>
-                                  </div>
-                              </div>
-                          </form>
-                      </div>
-                  </div>
-              </div>
+<div class="container">
+  <div class="row main">
+      <div class="main-login main-center">
+    <div class="text-center">
+      <img src="image/logo.png" alt="logo+">
+    </div>
+    <form class="form-horizontal" method="post">
+      <div class="form-group">
+        <div class="cols-sm-10">
+          <div class="input-group login">
+            <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" name="email" placeholder="Email" required/>
           </div>
+        </div>
       </div>
-
+      <div class="form-group">
+        <div class="cols-sm-10">
+          <div class="input-group login">
+            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+            <input type="password" class="form-control" name="password" placeholder="Password" required/>
+          </div>
+        </div>
+      </div>
+      <div class="form-group ">
+        <button class="btn btn-info btn-lg btn-block address-btn login-button">Login</button>
+      </div>
+      <p class="text-center text-muted"><small>Do not have an account?</small></p>
+      <div class="form-group ">
+        <a href="/newUI/register.php" class="btn btn-default btn-lg btn-block address-btn login-button">Create an account</a>
+      </div>
+      <div class="or-divider text-muted">
+        <span>or</span>
+      </div>
+      <div class="form-group ">
+        <a href="#" class="btn btn-danger btn-lg btn-block address-btn login-button"><i class="fa fa-google-plus"> Google Plus</i></a>
+      </div>
+      <div class="form-group ">
+        <a href="#" class="btn btn-primary btn-lg btn-block address-btn login-button"><i class="fa fa-facebook"></i> Facebook</a>
+      </div>
+    </form>
+  </div>
+  </div>
+</div>
 <?php include('includes/footer.php') ?>

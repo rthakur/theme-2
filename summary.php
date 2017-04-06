@@ -155,7 +155,7 @@
             </div>
         </div>
         <div class="form-group text-center">
-              <a href="/newUI/payment.php" class="btn btn-info adress-btn" style="margin-right: 15px;">Previous</a><button class="btn btn-success adress-btn">Buy Now</button>
+              <a href="/newUI/payment.php" class="btn btn-info address-btn" style="margin-right: 15px;">Previous</a><button class="btn btn-success address-btn">Buy Now</button>
         </div>
     </form>
   </section>
