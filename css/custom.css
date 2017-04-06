@@ -779,3 +779,32 @@ ol.progtrckr li.progtrckr-todo:before {
 	font-size: 12px !important;
 	margin-top: 5px;
 }
+
+.rating-review-heading {
+	padding: 20px !important;
+}
+
+.rating-review-container{
+	background: #DDDDDD;
+}
+.form-control.contact-us.review-us {
+	margin-bottom: 0px !important;
+	min-height: 60px;
+}
+.stars{
+    margin: 20px 0;
+    font-size: 22px;
+}
+.fa-star-o {
+	margin-right: 10px;
+	cursor: pointer;
+	color: #C0C0C0;
+}
+.fa-star{
+    color: #FFE11B;
+		margin-right: 10px;
+		cursor: pointer;
+}
+.rating {
+    border-bottom: 2px solid #fff;
+}
