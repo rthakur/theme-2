@@ -545,7 +545,10 @@ th{
 .table  tbody  tr  .highrow {
     border-top: 3px solid;
 }
-
+.border-bottom > tbody > tr > td{
+	border-top: none !important;
+	border-bottom: 1px solid #ddd;
+}
 
 /* CSS for Credit Card Payment form */
 
@@ -630,6 +633,7 @@ th{
 .input-group.login .input-group-addon, .input-group.login .form-control {
 	border-radius: 0 !important;
 }
+
 .or-divider {
 	width: 100%;
 	border-bottom: 1px solid #d5d5d5;
@@ -637,9 +641,141 @@ th{
 	text-align: center;
 	margin: 11px 0 22px;
 }
+
 .or-divider span {
 	display: inline-block;
 	background: #fff;
 	padding: 0 16px;
 	font-size: 17px;
+}
+
+.container.order-details {
+	max-width: 970px !important;
+}
+.order-detail-heading {
+	font-size: 25px;
+	font-weight: 600;
+	border-bottom: 2px solid #eee;
+	padding-bottom: 10px;
+}
+.order-detail-mp{
+	padding: 10px 20px;
+	border: 1px solid #eee;
+	margin-top: 15px;
+}
+
+.border-right {
+    border-right: 2px solid #eee;
+}
+.manage-order i {
+	font-size: 40px;
+	display: block;
+}
+.text-center.manage-order a {
+	color: #888888;
+	width: 100px !important;
+	display: block;
+	margin: 0 auto;
+}
+.text-center.manage-order a:hover {
+	border-bottom: 8px solid #47BAC1;
+	margin-bottom: -15px;
+	padding-bottom: 7px;
+}
+.manage-order a:hover i{
+	color: #47BAC1;
+}
+.order-item-image {
+	width: 80px;
+	height: 80px;
+	background: #eee;
+	float: left;
+	margin-right: 15px;
+}
+
+/ol.progtrckr {
+    margin: 0;
+    padding: 0;
+    list-style-type none;
+}
+
+ol.progtrckr li {
+    display: inline-block;
+    text-align: center;
+    line-height: 3.5em;
+}
+
+ol.progtrckr[data-progtrckr-steps="2"] li {
+	 width: 49%;
+ }
+ol.progtrckr[data-progtrckr-steps="3"] li {
+	 width: 33%;
+ }
+ol.progtrckr[data-progtrckr-steps="4"] li {
+	 width: 24%;
+ }
+ol.progtrckr[data-progtrckr-steps="5"] li {
+	 width: 19%;
+ }
+ol.progtrckr[data-progtrckr-steps="6"] li {
+	 width: 16%;
+ }
+ol.progtrckr[data-progtrckr-steps="7"] li {
+	 width: 14%;
+ }
+ol.progtrckr[data-progtrckr-steps="8"] li {
+	 width: 12%;
+ }
+ol.progtrckr[data-progtrckr-steps="9"] li {
+	 width: 11%;
+ }
+
+ol.progtrckr li.progtrckr-done {
+    color: black;
+    border-bottom: 4px solid yellowgreen;
+}
+ol.progtrckr li.progtrckr-todo {
+    color: silver;
+    border-bottom: 4px solid silver;
+}
+
+ol.progtrckr li:after {
+    content: "\00a0\00a0";
+}
+ol.progtrckr li:before {
+    position: relative;
+    bottom: -2.5em;
+    float: left;
+    left: 50%;
+    line-height: 1em;
+}
+ol.progtrckr li.progtrckr-done:before {
+    content: "\2713";
+    color: white;
+    background-color: yellowgreen;
+    height: 2.2em;
+    width: 2.2em;
+    line-height: 2.2em;
+    border: none;
+    border-radius: 2.2em;
+}
+ol.progtrckr li.progtrckr-todo:before {
+    content: "\039F";
+    color: silver;
+    background-color: white;
+    font-size: 2.2em;
+    bottom: -1.2em;
+}
+.progtrckr-heading{
+	display: inline-block;
+	width: 12%;
+}
+.order-total {
+	border-top: 2px solid;
+	padding: 15px;
+	margin-top: 10px;
+}
+.review-btn{
+	font-size: 12px !important;
+	margin-top: 5px;
 }
