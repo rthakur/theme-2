@@ -19,7 +19,7 @@
         <div class="cols-sm-10">
           <div class="input-group login">
             <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" name="email" placeholder="Email" required/>
+            <input type="email" class="form-control" name="email" placeholder="Email" required/>
           </div>
         </div>
       </div>

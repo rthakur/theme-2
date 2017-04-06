@@ -10,7 +10,7 @@
         <div class="cols-sm-10">
           <div class="input-group login">
             <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" name="email" placeholder="Email" required/>
+            <input type="email" class="form-control" name="email" placeholder="Email" required/>
           </div>
         </div>
       </div>
@@ -23,6 +23,7 @@
         </div>
       </div>
       <div class="form-group ">
+        <p class="active-link pull-right"><a href="/newUI/reset_password.php" class="active-links" ><strong>I don't remember my password</strong></a></p>
         <button class="btn btn-info btn-lg btn-block address-btn login-button">Login</button>
       </div>
       <p class="text-center text-muted"><small>Do not have an account?</small></p>

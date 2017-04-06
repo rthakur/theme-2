@@ -619,11 +619,14 @@ th{
 .main-center {
 	margin-top: 38px !important;
 	margin: 0 auto;
-	max-width: 330px;
+	max-width: 400px;
 	padding: 5px 40px;
 	margin-bottom: 20px !important;
 }
-
+.active-links {
+	color: #337ab7 !important;
+	text-decoration: underline !important;
+}
 .input-group.login .input-group-addon, .input-group.login .form-control {
 	border-radius: 0 !important;
 }
