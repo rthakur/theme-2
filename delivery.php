@@ -30,8 +30,10 @@
        </ul>
   </section>
   <section class="shoping-content">
-    <h3>DELIVERY</h3>
-    <p>Please choose your delivery method</p>
+    <div class="shoping-content-heading">
+      <h3>DELIVERY</h3>
+      <p>Please choose your delivery method</p>
+    </div>
     <hr>
     <form action="payment.php" method="post">
       <div class="item item-service">

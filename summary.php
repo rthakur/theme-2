@@ -30,8 +30,10 @@
        </ul>
   </section>
   <section class="shoping-content">
-    <h3>Summary</h3>
-    <p>Please check your order</p>
+    <div class="shoping-content-heading">
+      <h3>Summary</h3>
+      <p>Please check your order</p>
+    </div>
     <hr>
     <form action="invoice.php" method="post">
         <div class="row">

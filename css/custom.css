@@ -370,7 +370,12 @@ th{
 	margin: -5px 10px 5px 12px;
 	color: #D8D8D8;
 }
-
+.shoping-content-heading h3, .shoping-content-heading p{
+	font-weight: 600;
+}
+.shoping-content-heading p{
+	color: #595959;
+}
 .active-logo {
 	height: 35px;
 	width: 35px;
