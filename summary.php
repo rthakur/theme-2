@@ -33,7 +33,7 @@
     <h3>Summary</h3>
     <p>Please check your order</p>
     <hr>
-    <form action="invoice.php" >
+    <form action="invoice.php" method="post">
         <div class="row">
             <div class="col-xs-12">
                 <div class="row">
@@ -146,11 +146,16 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-12">
+                  <div class="terms_conditions">
+                      <input type="checkbox" name="agree" value="agree" required/> <span>Agree with the terms and conditions</span>
+                  </div>
+            </div>
         </div>
         <div class="form-group text-center">
               <a href="/newUI/payment.php" class="btn btn-info adress-btn" style="margin-right: 15px;">Previous</a><button class="btn btn-success adress-btn">Buy Now</button>
         </div>
-    </form
+    </form>
   </section>
 </div>
 <?php include('includes/footer.php') ?>
