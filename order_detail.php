@@ -84,8 +84,8 @@
                       <span class="text-muted">30 Days Exchange</span><br>
                       <span class="text-muted">Seller: RetailNet </span>
                     </div>
-                    <div class="col-md-12">
-                      <a class="btn btn-default review-btn" >Review Product</a>
+                    <div class="col-md-12 text-center">
+                      <a href="/newUI/review.php"  class="btn btn-default review-btn" >Review Product</a>
                     </div>
                   </div>
                 </div>
@@ -112,8 +112,8 @@
                       <span class="text-muted">Seller: RetailNet </span>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <a class="btn btn-default review-btn" >Review Product</a>
+                  <div class="col-md-12 text-center">
+                    <a href="/newUI/review.php" class="btn btn-default review-btn">Review Product</a>
                   </div>
                 </div>
                 <div class="col-md-8">

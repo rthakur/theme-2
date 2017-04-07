@@ -2,9 +2,13 @@
 <div class="container order-details">
     <div class="col-xs-12">
         <div class="row">
+          <div class="shoping-content-heading">
+          <h3>Myorder</h3>
+          <!-- <hr> -->
+        </div>
           <div class="panel panel-default">
             <div class="panel-heading">
-              <a href="newUI/detail_page.php" class="btn btn-info"><strong>  OD21344576785356 </strong></a>
+              <a href="/newUI/order_detail.php" class="btn btn-info order-id-btn"><strong> OD21344576785356 </strong></a>
             </div>
             <div class="panel-body">
               <div class="row ordered-item">
@@ -58,7 +62,7 @@
                   <p class="text-muted">Lorem Ipsum is simply dummy text.</p>
                 </div>
               </div>
-              <div class="row order-total">
+              <div class="row my-order-total">
                 <span class="price text-muted">Order On :</span>
                 <span class="price"> <?php echo date("d F Y"); ?></span>
               <p class="pull-right"><span class="price text-muted">Order Total </span> <span class="price">Rs. 2943</span></p>

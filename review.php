@@ -35,7 +35,7 @@
               <a href="/newUI/detail_page.php">
                 <img src="image/cart-1.jpg" class="product-image pull-right">
               </a>
-              <a href="/newUI/detail_page.php" style="color:black"><strong>Reverse Parking Sensors </strong></a><br>
+              <a href="/newUI/detail_page.php" style="color:#5f5f5f;"><strong>Reverse Parking Sensors </strong></a><br>
               <span class="text-muted pull-right reviewed-product-count">(123)</span>
               <button class="rating-count pull-right">4.2<i class="fa fa-star" area-hidden="true"></i></button>
             </div>

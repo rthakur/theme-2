@@ -817,6 +817,7 @@ ol.progtrckr li.progtrckr-todo:before {
 	padding: 0 12px;
 	font-size: 13px;
 	margin-bottom: 0;
+	color: #5f5f5f;
 }
 
 .review-us .active{
@@ -873,4 +874,15 @@ ol.progtrckr li.progtrckr-todo:before {
 .review-description{
 		min-height: 200px;
 		max-width: 750px;
+}
+
+.my-order-total {
+	padding: 11px 30px 0;
+	border-top: 1px solid #C0C0C0;
+	margin-top: 20px;
+}
+
+.order-id-btn {
+	border-radius: 0px !important;
+	/* border: 3px solid; */
 }
