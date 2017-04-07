@@ -37,7 +37,7 @@
               </a>
               <a href="/newUI/detail_page.php" style="color:#5f5f5f;"><strong>Reverse Parking Sensors </strong></a><br>
               <span class="text-muted pull-right reviewed-product-count">(123)</span>
-              <button class="rating-count pull-right">4.2<i class="fa fa-star" area-hidden="true"></i></button>
+              <button class="rating-count pull-right">4.2<i class="fa fa-star" aria-hidden="true"></i></button>
             </div>
           </div>
           <div class="review-product">

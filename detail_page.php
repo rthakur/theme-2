@@ -1,5 +1,4 @@
 <?php include('includes/header.php') ?>
-
 <div class="container">
   <div class="row" style="margin-top: 20px;">
     <div class="col-md-6">
