@@ -3,7 +3,7 @@
     <div class="col-xs-12">
         <div class="row">
           <div class="shoping-content-heading">
-            <h3>Myorder</h3>
+            <h3>Myorders</h3>
             <!-- <hr> -->
           </div>
         </div>

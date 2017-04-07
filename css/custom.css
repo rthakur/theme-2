@@ -289,8 +289,9 @@ th{
 }
 
 .text-green {
-	color: #006400;
+	color: #6bad50;
 	font-weight: bold;
+	font-size: 13px;
 }
 
 .payable-amount {
@@ -892,4 +893,50 @@ ol.progtrckr li.progtrckr-todo:before {
 }
 .my-order-btn .fa-map-marker {
 	color: #47BAC1;
+}
+
+.list-group-item {
+	display: inline-table;
+	width: 100%;
+}
+.list-group-item.active small {
+    color:#fff;
+}
+.wishlist-heahing {
+	border-bottom: 1px solid #8888;
+	padding-bottom: 3px;
+}
+.list-group-item-text.description {
+	margin-bottom: 10px;
+}
+.col-md-6.wishlist-content {
+	padding-left: 0;
+}
+
+.btn.btn-wishlist {
+	font-size: 12px;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 2px;
+	margin: 5px 0;
+}
+.btn-wishlist.add-cart{
+	background: #ec6723;
+	border: 1px solid #F37B34;
+}
+.btn-wishlist.add-cart:hover{
+	background: #F37B34;
+}
+
+.wishlist-product-features li {
+  list-style-type: inherit;
+	color: #ec6723;
+}
+.wishlist-product-features li .text{
+	color: #161615;
+}
+
+.wishlist.price {
+	border-bottom: 1px dotted #888;
+	padding-bottom: 5px;
 }
