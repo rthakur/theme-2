@@ -8,7 +8,7 @@
                 <tbody>
                   <tr>
                       <td>Order ID:</td>
-                      <td class="text-xs-center">OD108832903201736000</td>
+                      <td class="text-xs-center">OD21344576785356</td>
                   </tr>
                   <tr>
                       <td>Order Date:</td>
@@ -24,7 +24,7 @@
             <div class="col-md-6 float-xs-right">
                 <div class="card">
                     <div class="card-block">
-                        <strong>Lorem Ipsum</strong>  9988776655<br>
+                        <strong>Lorem Ipsum</strong> 9988776655<br>
                         1111 Army Navy Drive<br>
                         Arlington<br>
                         VA<br>
